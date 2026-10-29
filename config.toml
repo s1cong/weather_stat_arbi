@@ -1,0 +1,12 @@
+[event]
+track_days = 3
+discovery_interval_secs = 900
+
+[strategy]
+price_sum_threshold = 0.975
+
+[order]
+dry_run = true
+clob_host = "https://clob.polymarket.com"
+order_type = "GTC"
+min_order_size = 5.0
